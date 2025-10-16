@@ -1,0 +1,70 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Inter,system-ui,Arial;
+  line-height:1.6;
+  color:#062235;
+}
+.header{
+  background:#122f46;
+  color:#fff;
+  text-align:center;
+  padding:1.5rem 1rem;
+  position:sticky;
+  top:0;
+}
+.nav{
+  margin-top:0.75rem;
+}
+.nav a{
+  color:#fff;
+  text-decoration:none;
+  margin:0 0.75rem;
+  font-weight:600;
+  letter-spacing:0.4px;
+}
+.main{
+  width:100%;
+}
+.section{
+  padding:5rem 2rem;
+  text-align:center;
+}
+.section h2{
+  font-size:2rem;
+  margin-bottom:1rem;
+}
+.section p{
+  max-width:700px;
+  margin:0 auto;
+  font-size:1rem;
+}
+
+.intro{
+  background:linear-gradient(135deg,#ffd6b3,#ff8c42);
+  color:#052a3d;
+}
+.culture{
+  background:radial-gradient(circle at center,#ffffff 0%,#e8f2ff 100%);
+  color:#102d45;
+}
+.temples{
+  background:url("https://images.unsplash.com/photo-1533616688419-b7a585564566?auto=format&fit=crop&w=1200&q=80") center/cover fixed;
+  color:#fff;
+  text-shadow:0 2px 4px rgba(0,0,0,0.4);
+}
+.food{
+  background:url("https://images.unsplash.com/photo-1601050690593-74e5b35b731b?auto=format&fit=crop&w=1200&q=80") center/cover fixed;
+  color:#fff;
+  text-shadow:0 2px 4px rgba(0,0,0,0.4);
+}
+.footer{
+  background:#122f46;
+  color:#fff;
+  text-align:center;
+  padding:1rem;
+}
+@media(max-width:768px){
+  .section{padding:3.5rem 1.5rem}
+  .section h2{font-size:1.5rem}
+  .nav a{margin:0 0.4rem}
+}
