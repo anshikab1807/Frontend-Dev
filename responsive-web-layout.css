@@ -1,0 +1,36 @@
+body { margin: 0; font-family: sans-serif; }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: #fff;
+  padding: 15px;
+}
+nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 10px;
+}
+.box {
+  flex: 1;
+  background: #eee;
+  padding: 40px;
+  transition: transform 0.3s;
+  text-align: center;
+}
+.box:hover { transform: scale(1.05); }
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f1f1f1;
+}
+@media (max-width: 750px) {
+  .features { flex-direction: column; }
+}
