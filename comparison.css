@@ -1,0 +1,27 @@
+body { 
+  margin:0;
+  font-family:sans-serif;
+  text-align:center;
+}
+.compare {
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  padding:20px;
+}
+img {
+  width:100%;
+  max-width:300px;
+  transition:filter 0.5s;
+}
+figure:nth-child(2) 
+img {
+  filter: brightness(60%); 
+}
+figure:nth-child(2):hover 
+img { 
+  filter:none;
+}
+@media (max-width:700px){
+  .compare{flex-direction:column;align-items:center;}
+}
