@@ -13,10 +13,6 @@
 
 **Task:**  
 Create a timetable using the `<table>` tag and view it in Live Server.
-
-**Next:**  
-Explore HTML Block and Inline Elements, Attributes, and Layouts.
-
 ---
 
 ## Day 2 — Deep Dive into HTML Elements
@@ -31,10 +27,6 @@ Explore HTML Block and Inline Elements, Attributes, and Layouts.
 
 **Task:**  
 Create an HTML form using text, email, password, radio buttons, and checkboxes.
-
-**Next:**  
-Begin learning CSS for styling web pages.
-
 ---
 
 ## Day 3 — Introduction to CSS
@@ -50,10 +42,6 @@ Begin learning CSS for styling web pages.
 
 **Task:**  
 Design a simple webpage using internal and external CSS.
-
-**Next:**  
-Learn Flexbox and Grid for layout design.
-
 ---
 
 ## Day 4 — Flexbox, Grid & Advanced CSS
@@ -68,10 +56,6 @@ Learn Flexbox and Grid for layout design.
 
 **Task:**  
 Design a simple Calculator layout using CSS Grid.
-
-**Next:**  
-Learn Responsive Design and Media Queries.
-
 ---
 
 ## Day 5 — CSS Pseudo-classes, Animations & Transitions
@@ -86,10 +70,6 @@ Learn Responsive Design and Media Queries.
 
 **Task:**  
 Create an animation that moves an element diagonally using transitions.
-
-**Next:**  
-Learn Responsive CSS and Media Queries.
-
 ---
 
 ## Day 6 — Responsive CSS & Media Queries
@@ -104,10 +84,6 @@ Learn Responsive CSS and Media Queries.
 
 **Task:**  
 Design a responsive card UI with hover transition.
-
-**Next:**  
-Begin with Bootstrap for modern layouts.
-
 ---
 
 ## Day 7 — Introduction to Bootstrap
@@ -123,10 +99,6 @@ Begin with Bootstrap for modern layouts.
 
 **Task:**  
 Create a responsive portfolio webpage using Bootstrap.
-
-**Next:**  
-Explore Bootstrap components like Carousel and Progress Bar.
-
 ---
 
 ## Day 8 — Bootstrap Components & CSS Revision
@@ -141,8 +113,5 @@ Explore Bootstrap components like Carousel and Progress Bar.
 
 **Task:**  
 Build a responsive landing page using Bootstrap components.
----
 
-**Next Step:**  
-Start learning JavaScript to add interactivity to web pages.
 
