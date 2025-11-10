@@ -11,10 +11,7 @@
 - Concepts: Localhost, Ports, and Rendering pages via IP address  
 
 **Task:**  
-Create a timetable using the `<table>` tag and view it in Live Server.
-
-**Next:**  
-Explore HTML Block and Inline Elements, Attributes, and Layouts.
+Create a timetable
 
 ---
 
@@ -29,10 +26,7 @@ Explore HTML Block and Inline Elements, Attributes, and Layouts.
 - HTML Forms and input types  
 
 **Task:**  
-Create an HTML form using text, email, password, radio buttons, and checkboxes.
-
-**Next:**  
-Begin learning CSS for styling web pages.
+Create an HTML form 
 
 ---
 
@@ -48,10 +42,8 @@ Begin learning CSS for styling web pages.
 - Positioning: relative, absolute, fixed  
 
 **Task:**  
-Design a simple webpage using internal and external CSS.
+Design a simple webpage
 
-**Next:**  
-Learn Flexbox and Grid for layout design.
 
 ---
 
@@ -66,10 +58,7 @@ Learn Flexbox and Grid for layout design.
 - Pseudo-classes and Combinators  
 
 **Task:**  
-Design a simple Calculator layout using CSS Grid.
-
-**Next:**  
-Learn Responsive Design and Media Queries.
+Design a simple Calculator layout
 
 ---
 
@@ -86,9 +75,6 @@ Learn Responsive Design and Media Queries.
 **Task:**  
 Create an animation that moves an element diagonally using transitions.
 
-**Next:**  
-Learn Responsive CSS and Media Queries.
-
 ---
 
 ## Day 6 — Responsive CSS & Media Queries
@@ -103,9 +89,6 @@ Learn Responsive CSS and Media Queries.
 
 **Task:**  
 Design a responsive card UI with hover transition.
-
-**Next:**  
-Begin with Bootstrap for modern layouts.
 
 ---
 
@@ -123,9 +106,6 @@ Begin with Bootstrap for modern layouts.
 **Task:**  
 Create a responsive portfolio webpage using Bootstrap.
 
-**Next:**  
-Explore Bootstrap components like Carousel and Progress Bar.
-
 ---
 
 ## Day 8 — Bootstrap Components & CSS Revision
@@ -141,7 +121,4 @@ Explore Bootstrap components like Carousel and Progress Bar.
 **Task:**  
 Build a responsive landing page using Bootstrap components.
 ---
-
-**Next Step:**  
-Start learning JavaScript to add interactivity to web pages.
 
