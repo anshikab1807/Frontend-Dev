@@ -6,7 +6,6 @@
 **Topic:** Introduction to Web Development & HTML Basics
 
 **What I Learned**
-- 3-Tier Architecture: Frontend, Backend, and Database  
 - HTML Basics: Headings, Paragraphs, Tables, and Images  
 - Environment Setup: Installed VS Code and used Live Server  
 - Concepts: Localhost, Ports, and Rendering pages via IP address  
@@ -42,7 +41,7 @@ Begin learning CSS for styling web pages.
 **Topic:** CSS Styling Basics
 
 **What I Learned**
-- CSS Syntax and Application (Inline, Internal, External)  
+- CSS Syntax and Application 
 - Selectors and Color Properties  
 - Box Model (margin, padding, border, content)  
 - Display and Layout  
@@ -62,7 +61,7 @@ Learn Flexbox and Grid for layout design.
 
 **What I Learned**
 - Flexbox and Grid Layout Systems  
-- Box Model (Advanced)  
+- Box Model
 - Gradients, Shadows, and Transformations  
 - Pseudo-classes and Combinators  
 
@@ -79,7 +78,7 @@ Learn Responsive Design and Media Queries.
 **Topic:** CSS Animations and Effects
 
 **What I Learned**
-- Pseudo-classes (hover, focus, active)  
+- Pseudo-classes
 - Tooltips using position and visibility  
 - Transitions and Transformations  
 - Box-sizing and UI consistency  
@@ -98,9 +97,9 @@ Learn Responsive CSS and Media Queries.
 
 **What I Learned**
 - Responsive Design Principles  
-- CSS Filters (blur, brightness, contrast)  
+- CSS Filters 
 - Media Queries for different devices  
-- Flexible Units (% , vh, vw, em, rem)
+- Flexible Units 
 
 **Task:**  
 Design a responsive card UI with hover transition.
