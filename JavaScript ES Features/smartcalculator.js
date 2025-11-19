@@ -1,30 +1,21 @@
-"use strict";
-
-// Custom Error Classes
-
 class DivideByZeroError extends Error {
     constructor(message) {
         super(message);
         this.name = "DivideByZeroError";
     }
 }
-
 class NegativeRootError extends Error {
     constructor(message) {
         super(message);
         this.name = "NegativeRootError";
     }
 }
-
 class InvalidOperationError extends Error {
     constructor(message) {
         super(message);
         this.name = "InvalidOperationError";
     }
 }
-
-// Smart Calculator Function
-
 function calculate(operation, a, b) {
     switch (operation) {
 
@@ -53,15 +44,9 @@ function calculate(operation, a, b) {
             throw new InvalidOperationError(`Operation "${operation}" not recognized.`);
     }
 }
-
-// Given Data
-
 const operations = ["add", "divide", "power", "root", "subtract"];
 const num1 = 25;
 const num2 = 0;
-
-// Run Calculations With try...catch
-
 console.log(" SMART CALCULATOR SUMMARY \n");
 
 operations.forEach(op => {
@@ -88,3 +73,4 @@ Status        : FAILED
 `);
     }
 });
+
