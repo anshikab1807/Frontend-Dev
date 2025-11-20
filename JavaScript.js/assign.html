@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="product"></div>
+    <script>
+      fetch("https://jsonplaceholder.typicode.com/posts/1")
+        .then((response) => response.json())
+        .then((json) => console.log(json));
+
+      // fetch("https://dummyjson.com/products") //Response { status: 200, body: ReadableStream, ... }
+      //   .then((response) => response.json())
+      //   .then((json) => console.log(json));
+
+      async function getData() {
+        const data = await fetch("https://dummyjson.com/products");
+        const readData = await data.json();
+        const productElement = document.querySelector(".product");
+        readData.products.forEach((product) => {
+          let productHTML = document.createElement("p");
+          productHTML.textContent = product.title;
+          productHTML.style.backgroundColor = "green";
+          productHTML.style.color = "white";
+          productHTML.style.padding = "10px";
+          productHTML.style.borderRadius = "10px";
+          productHTML.style.textIndent = "10px";
+          productHTML.style.wordSpacing = "5px";
+          productHTML.style.letterSpacing = "1px";
+          productHTML.style.lineHeight = "1.5";
+          productElement.appendChild(productHTML);
+        });
+      }
+      getData();
+    </script>
+  </body>
+</html>
