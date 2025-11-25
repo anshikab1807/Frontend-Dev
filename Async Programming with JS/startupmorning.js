@@ -1,10 +1,8 @@
-// Function 1: Boil Water
 function boilWater() {
   return new Promise((resolve, reject) => {
     console.log("Boiling water...");
-
     setTimeout(() => {
-      if (Math.random() < 0.2) {      // 20% chance of failure
+      if (Math.random() < 0.2) {    
         reject("Failed to boil water!");
       } else {
         resolve("Water boiled.");
@@ -12,8 +10,6 @@ function boilWater() {
     }, 1500);
   });
 }
-
-// Function 2: Brew Coffee
 function brewCoffee() {
   return new Promise((resolve, reject) => {
     console.log("Brewing coffee...");
@@ -27,8 +23,6 @@ function brewCoffee() {
     }, 1500);
   });
 }
-
-// Function 3: Pour into Cup
 function pourCoffee() {
   return new Promise((resolve, reject) => {
     console.log("Pouring coffee...");
@@ -42,8 +36,6 @@ function pourCoffee() {
     }, 1500);
   });
 }
-
-// Promise Chaining
 boilWater()
   .then((msg) => {
     console.log(msg);
@@ -60,4 +52,5 @@ boilWater()
   .catch((error) => {
     console.log("Error:", error);
     console.log("Coffee process failed. Try again!");
+
   });
