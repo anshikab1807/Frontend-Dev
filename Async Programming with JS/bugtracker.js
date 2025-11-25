@@ -1,8 +1,6 @@
-// --- Promise-based Bug Tracker ---
 function getBugs() {
   return new Promise((resolve, reject) => {
-    const apiFailed = Math.random() < 0.4; // 40% chance of failure (simulate)
-
+    const apiFailed = Math.random() < 0.4; 
     setTimeout(() => {
       if (apiFailed) {
         reject(" API Error: Failed to fetch bugs");
@@ -12,14 +10,11 @@ function getBugs() {
     }, 1000);
   });
 }
-
-// --- Using the Promise-based function ---
 console.log("Fetching bugs...");
-
 getBugs()
   .then(bugs => {
     console.log(" Bug List:");
-    console.table(bugs); // Neatly formatted table
+    console.table(bugs); 
   })
   .catch(error => {
     console.error(error);
