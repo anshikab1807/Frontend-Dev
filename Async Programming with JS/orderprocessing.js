@@ -29,8 +29,9 @@ async function processOrder() {
 (async () => {
   try {
     await processOrder();
-    console.log("Order completed successfully 🚀");
+    console.log("Order completed successfully ");
   } catch (finalError) {
     console.error("❌ " + finalError);
   }
+
 })();
