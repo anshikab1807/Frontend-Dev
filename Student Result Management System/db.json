@@ -2,21 +2,21 @@
   "students": [
     {
       "id": "1",
-      "name": "Anushka Garg",
+      "name": "Anshika",
       "section": "A",
       "marks": 89,
       "grade": "A"
     },
     {
       "id": "2",
-      "name": "Teesha Verma",
+      "name": "Rini",
       "section": "B",
       "marks": 76,
       "grade": "B"
     },
     {
       "id": "8d6d",
-      "name": "Anushka Garg",
+      "name": "Pankaj",
       "section": "A",
       "marks": 89,
       "grade": "A"
